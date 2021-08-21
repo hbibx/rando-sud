@@ -1,0 +1,214 @@
+html
+
+body{
+    max-width: 100%;
+    margin: auto;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+/****************header***********/
+header{
+    display: flex;
+    margin-left: unset;
+    flex-wrap: nowrap;
+    justify-content: center;
+        color:#fb8a9b;
+        font-size:20px;
+}
+header h1{
+    font-size: 3rem;
+}
+header p{
+    font-size:2rem;
+}
+
+#nav-header a{
+
+text-decoration: none;
+color:black;
+
+}
+#nav-header img{
+    width: 10%;
+    
+
+}
+#nav-header {
+    padding-bottom: 1rem;
+}
+
+/*************************************accueille*****************/
+/****************main***********/
+.container{
+    width:80%;
+    margin:auto;
+}
+#sec-photo-back{
+    background-image: url(https://data.photofunky.net/output/image/b/9/3/0/b9302c/photofunky.jpg);
+    background-position: bottom;
+    background-size:cover;
+    padding: 4rem 2rem ;
+}
+#sec-photo-back h1,#sec-photo-back p{
+    color:white;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    border-top:1px dashed gray;
+    border-left:1px dashed gray;
+    border-right:1px dashed gray;
+    padding-top:1rem;
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.2rem; 
+}
+#div-artic-prem, #div-artic-deux {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+    align-content: stretch;
+  
+}
+
+#div-artic-deux article, #div-artic-prem article{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    padding-left: 1rem;
+  
+
+}
+a{
+    color:#fb8a9b; 
+    padding-left: 10rem;
+}
+.fa,.fas{
+    color:#fb8a9b; 
+  
+}
+
+/*************************************camping*****************/
+
+
+
+h2{
+    text-align: center;
+    border-top:1px dashed gray;
+    border-left:1px dashed gray;
+    border-right:1px dashed gray;
+    padding-top:1rem;
+    font-size: 1.8rem;
+}
+h3{
+    font-size: 1.2rem; 
+}
+#div-artic-mutuel {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  
+}
+
+#div-artic-prem article i{
+    font-size: 5em;
+} 
+
+
+#div-artic-deux article i{
+    font-size: 5em;
+
+}
+
+
+ #div-artic-mutuel article{
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+    border: 1px dashed grey;
+  
+}
+
+#div-artic-mutuel article i{
+
+    background-color:#fb8a9b ;
+    padding: 1rem 5.3rem;
+    text-decoration: none;
+    color:white
+}
+.h3_t{
+    background-color: #213e4e;
+    padding: 1rem 5.3rem;
+    color:white;
+}
+
+
+.fa{
+    color:#fb8a9b; 
+}
+input{
+    background-color:#ffffff; 
+    color:black;
+    width:20%;  
+    border:0;
+    padding :1rem 0;  
+    border: 1px solid gray;
+}
+::placeholder{
+    color:rgb(145, 145, 145);
+}
+#div-artic-prem p{
+text-align: center;
+}
+
+#p1,#p2,#p3{
+    padding-left: 50rem;
+}
+#res1,#res2,#res3{
+    color:black;
+}
+
+/****************footer***********/
+
+footer{
+    background-color:#213e4e;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
+}
+footer img{
+    display:block;
+    width:9%;
+    margin:auto;
+    padding-top: 2rem;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    border:none;
+}
+#nav-footer{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
+}
+#nav-footer a{
+    color:white;
+    text-decoration: none;
+}
+
+
